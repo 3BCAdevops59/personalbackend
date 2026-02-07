@@ -316,7 +316,8 @@ git push origin <branch-name>
 ## Additional Artifacts
 
 ### DevOps documentation
-- [Devops.pdf](Devops.pdf)
+- [Deveops.pdf](screenshot/Deveops.pdf)
+
 Added my Devops.pdf with it.
 
 **What it is**
