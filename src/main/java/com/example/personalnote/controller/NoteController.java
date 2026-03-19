@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin(origins = {
+    "https://personalnote.me"
+})
 @RequestMapping("/api/notes")
 public class NoteController {
 
