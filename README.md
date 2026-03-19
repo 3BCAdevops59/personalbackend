@@ -98,7 +98,8 @@ The application can be started using the Maven Wrapper for your operating system
   - `./mvnw spring-boot:run`
 
 ### Runtime behavior
-The API runs on http://localhost:8080 by default.
+Local runtime: http://localhost:8080 (default)
+Deployed runtime: https://personalnote-byswee-b5bqemg7cpg9gaga.southeastasia-01.azurewebsites.net
 
 ## API Reference
 
@@ -135,11 +136,11 @@ It provides a controlled integration point between the backend and external web 
 #### How it is configured
 Allowed origins are configured in `application.properties`:
 
-- `app.cors.allowed-origins=https://personalfrontend.vercel.app`
+- `app.cors.allowed-origins=https://personalnote-byswee-b5bqemg7cpg9gaga.southeastasia-01.azurewebsites.net`
 
 To allow multiple origins, provide a comma-separated list:
 
-- `app.cors.allowed-origins=https://personalfrontend.vercel.app,https://another.example.com`
+- `app.cors.allowed-origins=https://personalnote-byswee-b5bqemg7cpg9gaga.southeastasia-01.azurewebsites.net,http://localhost:3000,http://127.0.0.1:3000`
 
 ### H2 Console
 
